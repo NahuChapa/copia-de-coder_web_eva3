@@ -1,0 +1,165 @@
+.hero3 {
+  @include backgroundimage;
+  height: 75vh;
+  background-image: url(../assets/img/code-gae1fb4aff_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+
+  .work {
+    margin: 10px;
+    height: 50vh;
+    display: grid;
+    background-color: #d8d6d65e;
+    border-radius: 20px;
+    grid-column: 1/2;
+    grid-row: 1/5;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }
+}
+
+.work-foto {
+  align-self: center;
+  grid-row: 1/2;
+}
+
+.text-work {
+  .titulo0 {
+    grid-row: 2/3;
+    font-weight: 700px;
+  }
+
+  p {
+    align-self: center;
+    font-size: 1rem;
+    grid-row: 2/3;
+  }
+}
+
+.hero3 .work1 {
+  margin: 10px;
+  height: 50vh;
+  display: grid;
+  background-color: #d8d6d65e;
+  border-radius: 20px;
+  grid-column: 2/3;
+  grid-row: 1/5;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.work-foto1 {
+  height: 40px;
+  align-self: center;
+  grid-row: 1/2;
+}
+
+.text-work1 {
+  .titulo1 {
+    grid-row: 2/3;
+    font-weight: 700px;
+  }
+
+  p {
+    align-self: center;
+    font-size: 1rem;
+    grid-row: 2/3;
+  }
+}
+
+.hero3 .work2 {
+  margin: 10px;
+  height: 50vh;
+  display: grid;
+  background-color: #d8d6d65e;
+  border-radius: 20px;
+  grid-column: 3/4;
+  grid-row: 1/5;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.work-foto2 {
+  align-self: center;
+  grid-row: 1/2;
+}
+
+.text-work2 {
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .titulo2 {
+    grid-row: 2/3;
+    font-weight: 700px;
+  }
+}
+
+.hero3 .work3 {
+  margin: 10px;
+  height: 50vh;
+  display: grid;
+  background-color: #d8d6d65e;
+  border-radius: 20px;
+  grid-column: 4/5;
+  grid-row: 1/5;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.work-foto3 {
+  align-self: center;
+  grid-row: 1/2;
+}
+
+.text-work3 {
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .titulo3 {
+    grid-row: 2/3;
+    font-weight: 700px;
+  }
+}
+
+.boton-mas {
+  grid-row: 3/4;
+  align-self: center;
+  justify-self: center;
+  list-style: none;
+  
+
+  a {
+    display: grid;
+    grid-row: 3/4;
+    text-decoration: none;
+    color: black;
+    background-color: #d8d6d65e;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+
+    &:hover {
+    background-color: $background-color-button;
+    }
+  }
+}

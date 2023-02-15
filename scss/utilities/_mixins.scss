@@ -1,0 +1,18 @@
+@mixin responsive {
+    display: block;
+    margin-right: 20px;
+    justify-self: end;
+    font-size: 1em;    
+}
+
+@mixin backgroundimage {
+    height: 75vh;
+    background-image: url(../assets/img/code-gae1fb4aff_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin center {
+    text-align: center;
+    align-self: center;
+}

@@ -1,0 +1,35 @@
+.hero {
+    @include backgroundimage;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    }
+  
+    .context {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2,1fr);
+      color: black;
+      background-color: $background-color-text;
+      width: 45%;
+      height: 35%;
+      border-radius: 20px;
+      text-align: center;
+      justify-self: center;
+      align-self: center;
+      }
+  
+      .title1 {
+        font-size: 2rem;
+        font-weight: 700;
+        align-self: center;
+        padding-top: 10px;
+      }
+  
+      .title2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        align-self: center;
+      }
+

@@ -1,0 +1,20 @@
+.pie {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+
+  .ig:hover, .git:hover, .lin:hover {
+    transform: translateY(-3px);
+    image-rendering: auto;
+  }
+
+  .git {
+    margin: 5px;
+  }
+}
+
+.copyright {
+  text-align: center;
+}

@@ -1,0 +1,59 @@
+
+
+  .hero4 {
+    height: 75vh;
+    background-image: url(../assets/img/code-gae1fb4aff_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    background-color: #d8d6d65e;
+    width: 400px;
+    height: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  
+    .form__title {
+      grid-row: 1/2;
+      font-weight: 700;
+      @include center;
+    }
+  
+    .name {
+      grid-row: 2/3;
+      @include center;
+    }
+  
+    .email {
+      grid-row: 3/4;
+      @include center;
+    }
+  
+    .textarea {
+      grid-row: 4/5;
+      @include center;
+      margin-top: 5px;
+    }
+  
+    .form__submit {
+      background-color: #d8d6d65e;
+      grid-row: 5/6;
+      width: 100px;
+      text-align: center;
+      align-self: center;
+      justify-self: center;
+      border-radius: 20px;
+  
+      &:hover {
+        background-color: azure;
+      }
+    }
+  }
